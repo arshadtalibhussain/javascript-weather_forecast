@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search-container" class="serach">
+        <input
+          type="text"
+          id="city-input"
+          class="input"
+          placeholder="Enter the city Name"
+        />
+        <img
+          src="images/search.png"
+          class="search-icon"
+          id="search-btn"
+          alt="search"
+        />
+      </div>
+
+      <div class="weather">
+        <img src="images/cloudy.png" class="weather-icon" id="weather-icon" />
+        <h2 class="city-name">Multan</h2>
+        <h1 class="temperature">20°c</h1>
+      </div>
+      <div class="speed-humidity">
+        <div class="wind">
+          <image src="images/wind.png" class="wind-icon" />
+          <p>wind-speed</p>
+          <p class="wind-speed">3 km/h</p>
+        </div>
+        <div id="humidity">
+          <image src="images/humidity.png" class="humidity-icon" />
+          <p>humidity</p>
+          <p class="humidity">50%</p>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
